@@ -1,11 +1,5 @@
 export default {
   widgets: [
-    {
-      name: 'sanity-tutorials',
-      options: {
-        templateRepoId: 'sanity-io/sanity-template-nextjs-landing-pages'
-      }
-    },
     {name: 'structure-menu'},
     {
       name: 'project-info',
@@ -39,7 +33,11 @@ export default {
             value: 'https://github.com/jameswyse/sanity-nextjs-landing-pages',
             category: 'Code'
           },
-          {title: 'Frontend', value: 'https://sanity-nextjs-landing-pages-web-deqnfk9e.netlify.app', category: 'apps'}
+          {
+            title: 'Frontend',
+            value: 'https://sanity-nextjs-landing-pages-web-deqnfk9e.netlify.app',
+            category: 'apps'
+          }
         ]
       }
     },
